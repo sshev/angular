@@ -6,6 +6,8 @@
  * found in the LICENSE file at https://angular.io/license
  */
 
+import {Injectable} from '@angular/core';
+
 import {setRootDomAdapter} from '../dom/dom_adapter';
 import {global, isBlank, isPresent, setValueOnPath} from '../facade/lang';
 
@@ -60,6 +62,37 @@ const _chromeNumKeyPadMap = {
   '\x60': '0',
   '\x90': 'NumLock'
 };
+
+@Injectable()
+export class LogAdapter {
+  logError(error: string): void {
+    if (window.console) {
+      if (console.error) {
+        console.error(error);
+      } else {
+        console.log(error);
+      }
+    }
+  }
+
+  log(error: string): void {
+    if (window.console) {
+      window.console.log && window.console.log(error);
+    }
+  }
+
+  logGroup(error: string): void {
+    if (window.console) {
+      window.console.group && window.console.group(error);
+    }
+  }
+
+  logGroupEnd(): void {
+    if (window.console) {
+      window.console.groupEnd && window.console.groupEnd();
+    }
+  }
+}
 
 /**
  * A `DomAdapter` powered by full browser DOM APIs.

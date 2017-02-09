@@ -54,7 +54,8 @@ export const __platform_browser_private__: {
   initDomAdapter: typeof browser.initDomAdapter,
   INTERNAL_BROWSER_PLATFORM_PROVIDERS: typeof browser.INTERNAL_BROWSER_PLATFORM_PROVIDERS,
   BROWSER_SANITIZATION_PROVIDERS: typeof browser.BROWSER_SANITIZATION_PROVIDERS,
-  WebAnimationsDriver: typeof WebAnimationsDriver
+  WebAnimationsDriver: typeof WebAnimationsDriver,
+  LogAdapter: typeof browserDomAdapter.LogAdapter,
 } = {
   BrowserPlatformLocation: location.BrowserPlatformLocation,
   DomAdapter: dom_adapter.DomAdapter,
@@ -79,5 +80,6 @@ export const __platform_browser_private__: {
   initDomAdapter: browser.initDomAdapter,
   INTERNAL_BROWSER_PLATFORM_PROVIDERS: browser.INTERNAL_BROWSER_PLATFORM_PROVIDERS,
   BROWSER_SANITIZATION_PROVIDERS: browser.BROWSER_SANITIZATION_PROVIDERS,
-  WebAnimationsDriver: WebAnimationsDriver
+  WebAnimationsDriver: WebAnimationsDriver,
+  LogAdapter: browserDomAdapter.LogAdapter,
 };
