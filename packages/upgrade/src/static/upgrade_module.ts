@@ -255,8 +255,8 @@ export class UpgradeModule {
                         digestsPerFrame = 1;
                         runDigest();
                       } else {
-                        // detected attempt to run several digests in one frame - allow only two $digest() calls
-                        // if more - skill all further calls and schedule single $digest() to next frame
+                        // detected attempt to run several digests in one frame - allow only two digests then
+                        // if more - skip all further attempts and schedule digest on next frame
                         if (digestsPerFrame < 2) {
                           digestsPerFrame++;
                           runDigest();
