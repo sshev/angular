@@ -247,13 +247,12 @@ export class UpgradeModule {
                     $rootScope.$$phase ? $rootScope.$applyAsync() : $rootScope.$digest();
                   };
 
-                  // suppress continuous flow of digests calls during one frame interval and schedule single $digests() to next frame
                   const subscription = this.ngZone.onMicrotaskEmpty
                     .filter(() => !isDigestScheduled)
                     .subscribe(() => {
-                      // digest happened in previous frames - no problem, run digest again
+                      // digest happened in previous frame(s) - no problem, run digest again
                       if (window.performance.now() - lastRun > FRAME_DURATION) {
-                        digestsPerFrame = 0;
+                        digestsPerFrame = 1;
                         runDigest();
                       } else {
                         // detected attempt to run several digests in one frame - allow only two $digest() calls
