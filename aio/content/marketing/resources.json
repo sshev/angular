@@ -105,7 +105,7 @@
         "order": 3,
         "resources": {
           "-KLIzHDRfiB3d7W7vk-e": {
-            "desc": "Reactive Extensions for angular2",
+            "desc": "Reactive Extensions for Angular",
             "rev": true,
             "title": "ngrx",
             "url": "http://github.com/ngrx"
@@ -130,6 +130,13 @@
             "rev": true,
             "title": "Apollo",
             "url": "http://docs.apollostack.com/apollo-client/angular2.html"
+          },
+          "ab4": {
+            "desc": "Angular Commerce is a solution for building modern e-commerce applications with power of Google Firebase. Set of components is design agnostic and allows to easily extend functionality.",
+            "logo": "",
+            "rev": true,
+            "title": "AngularCommerce",
+            "url": "https://github.com/NodeArt/angular-commerce"
           }
         }
       },
@@ -202,7 +209,7 @@
             "url": "https://cli.angular.io"
           },
           "d1": {
-            "desc": "A set of tslint rules for static code analysis of Angular TypeScript projects.",
+            "desc": "Static analysis for Angular projects.",
             "logo": "",
             "rev": true,
             "title": "Codelyzer",
@@ -214,12 +221,32 @@
             "rev": true,
             "title": "Universal for ASP.NET",
             "url": "https://github.com/aspnet/nodeservices"
+          },
+          "f1": {
+            "desc": "This tool generates dedicated documentation for Angular applications.",
+            "logo": "",
+            "rev": true,
+            "title": "Compodoc",
+            "url": "https://github.com/compodoc/compodoc"
+          },
+          "ncg": {
+            "desc": "Generate several types of CRUD apps complete with e2e testing using template-sets for Angular, Material Design, Bootstrap, Kendo UI, Ionic, ...",
+            "logo": "https://avatars3.githubusercontent.com/u/27976684",
+            "rev": true,
+            "title": "NinjaCodeGen - Angular CRUD Generator",
+            "url": "https://ninjaCodeGen.com"
           }
         }
       },
       "UI Components": {
         "order": 4,
         "resources": {
+          "DevExtreme": {
+            "desc": "50+ UI components including data grid, pivot grid, scheduler, charts, editors, maps and other multi-purpose controls for creating highly responsive web applications for touch devices and traditional desktops.",
+            "rev": true,
+            "title": "DevExtreme",
+            "url": "https://js.devexpress.com/Overview/Angular/"
+          },
           "234237": {
             "desc": "UX guidelines, HTML/CSS framework, and Angular components working together to craft exceptional experiences",
             "rev": true,
@@ -246,7 +273,7 @@
             "url": "http://ng-lightning.github.io/ng-lightning/"
           },
           "7ab": {
-            "desc": "UI components for hybrid mobile apps with bindings for both Angular 1 & 2.",
+            "desc": "UI components for hybrid mobile apps with bindings for both Angular & AngularJS.",
             "rev": true,
             "title": "Onsen UI",
             "url": "https://onsen.io/v2/"
@@ -280,17 +307,17 @@
             "url": "https://vaadin.com/elements"
           },
           "a7b": {
-            "desc": "Native Angular2 directives for Bootstrap",
+            "desc": "Native Angular directives for Bootstrap",
             "logo": "",
             "rev": true,
-            "title": "ng2-bootstrap",
-            "url": "http://valor-software.com/ng2-bootstrap/"
+            "title": "ngx-bootstrap",
+            "url": "http://valor-software.com/ngx-bootstrap/#/"
           },
           "ab": {
             "desc": "Material Design components for Angular",
             "logo": "",
             "rev": true,
-            "title": "Angular Material 2",
+            "title": "Angular Material",
             "url": "https://github.com/angular/material2"
           },
           "aggrid": {
@@ -298,6 +325,19 @@
             "rev": true,
             "title": "ag-Grid",
             "url": "https://www.ag-grid.com/best-angular-2-data-grid/"
+          },
+          "jqwidgets": {
+            "desc": "Angular UI Components including data grid, tree grid, pivot grid, scheduler, charts, editors and other multi-purpose components",
+            "rev": true,
+            "title": "jQWidgets",
+            "url": "https://www.jqwidgets.com/angular/"
+          },
+          "amexio": {
+            "desc": "Amexio (Angular MetaMagic EXtensions for Inputs and Outputs)  is a rich set of Angular components powered by Bootstrap for Responsive Design. UI Components include Standard Form Components, Data Grids, Tree Grids, Tabs etc. Open Source (Apache 2 License) & Free and backed by MetaMagic Global Inc",
+            "rev": true,
+            "title": "Amexio - Angular Extensions",
+            "url": "http://www.amexio.tech/",
+            "logo": "http://www.amexio.org/amexio-logo.png"
           }
         }
       }
@@ -348,7 +388,7 @@
           "a5b": {
             "desc": "The in-depth, complete, and up-to-date book on Angular. Become an Angular expert today.",
             "rev": true,
-            "title": "ng-book 2",
+            "title": "ng-book",
             "url": "https://www.ng-book.com/2/"
           },
           "a6b": {
@@ -417,7 +457,7 @@
             "url": "https://www.eduonix.com/courses/Web-Development/angular-2-fundamentals-for-web-developers"
           },
           "-KMUuOWwciL_S_o0fzFO": {
-            "desc": "The ngmigrate project is brought to you by Todd Motto, a Developer Advocate at Telerik, spreading the good word of Kendo UI, NativeScript and Angular 1 & 2. You can follow him on Twitter for questions, or even requests about this guide.",
+            "desc": "The ngMigrate project is brought to you by Todd Motto, a Developer Advocate at Telerik, spreading the good word of Kendo UI, NativeScript and Angular & AngularJS. You can follow him on Twitter for questions, or even requests about this guide.",
             "rev": true,
             "title": "ngMigrate",
             "url": "http://ngmigrate.telerik.com/"
@@ -466,7 +506,7 @@
             "url": "https://frontendmasters.com/courses/angular-2/"
           },
           "ac6": {
-            "desc": "French language Angular course covering TypeScript, ES6, Depdendency Injection, Observables, and more.",
+            "desc": "French language Angular course covering TypeScript, ES6, Dependency Injection, Observables, and more.",
             "rev": true,
             "title": "Wishtack's Angular Course (francais)",
             "url": "http://courses.wishtack.com/angular-2/ecmascript-6"
@@ -488,12 +528,6 @@
             "rev": true,
             "title": "Learn Angular (francais)",
             "url": "http://www.learn-angular.fr/"
-          },
-          "sad200": {
-            "desc": "Free Angular training delivered by SFEIR in France",
-            "rev": true,
-            "title": "SFEIR School (French)",
-            "url": "https://school.sfeir.com/project/sad-200/"
           },
           "toddmotto-ultimateangular": {
             "desc": "Online courses providing in-depth coverage of the Angular ecosystem, AngularJS, Angular and TypeScript, with functional code samples and a full-featured seed environment. Get a deep understanding of Angular and TypeScript from foundation to functional application, then move on to advanced topics with Todd Motto and collaborators.",
@@ -519,7 +553,7 @@
             "url": "http://chariotsolutions.com/course/angular2-workshop-fundamentals-architecture/"
           },
           "-KLIBoN0p9be3kwC6-ga": {
-            "desc": "Angular Academy is a 2 day hands-on public course given in-person across Canada!",
+            "desc": "Angular Academy is a two day hands-on public course given in-person across Canada!",
             "rev": true,
             "title": "Angular Academy (Canada)",
             "url": "http://www.angularacademy.ca"
@@ -574,6 +608,19 @@
             "rev": true,
             "title": "Thoughtram",
             "url": "http://thoughtram.io/"
+          },
+          "jsru": {
+            "desc": "Complete Angular online course. Constantly updating. Real-time webinars with immediate feedback from the teacher.",
+            "logo": "https://learn.javascript.ru/img/sitetoolbar__logo_ru.svg",
+            "rev": true,
+            "title": "Learn Javascript (Russian)",
+            "url": "https://learn.javascript.ru/courses/angular"
+          },
+          "sa200": {
+            "desc": "Free Angular training delivered by SFEIR in France",
+            "rev": true,
+            "title": "SFEIR School (French)",
+            "url": "https://school.sfeir.com/project/sa200/"
           }
         }
       }
